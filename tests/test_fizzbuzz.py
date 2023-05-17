@@ -34,3 +34,12 @@ class FizzBuzzTestCase(unittest.TestCase):
 
         # Assert / Then
         self.assertEqual('fizz', result)
+
+    def test_it_returns_buzz_when_number_is_5(self):
+        # Arrange / Given
+
+        # Act / When
+        result = fizzbuzz(5)
+
+        # Assert / Then
+        self.assertEqual('buzz', result)
